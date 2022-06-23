@@ -1,0 +1,10 @@
+x = int (input ())
+y = int (input ())
+z = int (input ())
+
+p = x/2 + y/2 + z/2
+
+import math
+
+p = math.ceil (p)
+print (p)
