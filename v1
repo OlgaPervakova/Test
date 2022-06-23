@@ -2,9 +2,7 @@ x = int (input ())
 y = int (input ())
 z = int (input ())
 
-p = x/2 + y/2 + z/2
-
 import math
+p = math.ceil (x/2) + math.ceil (y/2) + math.ceil (z/2)
 
-p = math.ceil (p)
 print (p)
